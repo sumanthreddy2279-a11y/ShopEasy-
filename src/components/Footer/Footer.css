@@ -1,0 +1,17 @@
+.footer {
+  background: #121212;
+border-top: 1px solid rgba(212,175,55,.15);
+  color: white;
+
+  text-align: center;
+
+  padding: 35px;
+}
+
+.footer h2 {
+  color:#D4AF37;
+}
+
+.footer p {
+  margin-top: 10px;
+}

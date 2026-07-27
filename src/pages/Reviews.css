@@ -1,0 +1,150 @@
+.reviews-page {
+  min-height: 100vh;
+  background: #111;
+  color: white;
+  padding: 40px;
+}
+
+.reviews-page h1 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 40px;
+  font-size: 42px;
+}
+
+.back-btn {
+  background: #d4af37;
+  color: black;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.review-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #222;
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.review-card img {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+}
+
+.review-card h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.review-card label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d4af37;
+}
+
+.review-card select {
+  width: 420px;
+  margin-top: 28px;
+}
+.review-card textarea {
+  width: 500px;
+  padding: 12px;
+  background: #111;
+  color: white;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.review-card textarea {
+  width: 420px;
+  height: 120px;
+  resize: none;
+  margin-top: 28px;
+}
+
+.save-review-btn {
+  background: #d4af37;
+  color: black;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.save-review-btn:hover {
+  background: #f3c742;
+}
+
+.reviews-title {
+  color: #d4af37;
+  font-size: 32px;
+  margin: 40px 0 20px;
+}
+
+.saved-review {
+  display: flex;
+  gap: 25px;
+  background: #222;
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.saved-review img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+}
+
+.saved-review h3 {
+  color: white;
+}
+
+.saved-review p {
+  color: #ddd;
+  margin-top: 10px;
+}
+
+.saved-review .stars {
+  color: gold;
+  font-size: 20px;
+}
+.review-form{
+    display:flex;
+    flex-direction:column;
+    width:500px;
+}
+
+.review-form label{
+    margin-top:15px;
+    margin-bottom:8px;
+    color:#d4af37;
+    font-weight:bold;
+}
+
+.review-form select,
+.review-form textarea{
+    width:100%;
+}
+
+.review-form button{
+    margin-top:20px;
+    width:220px;
+}

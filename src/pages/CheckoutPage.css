@@ -1,0 +1,134 @@
+.checkout-page{
+    min-height:100vh;
+    background:#121212;
+    color:white;
+    padding:40px 8%;
+}
+
+.checkout-page h1{
+    color:#D4AF37;
+    font-size:42px;
+    margin-bottom:35px;
+}
+
+.checkout-container{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:35px;
+}
+
+.checkout-form{
+    background:#1d1d1d;
+    border:1px solid rgba(212,175,55,.15);
+    border-radius:18px;
+    padding:35px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.checkout-form h2{
+    color:#D4AF37;
+    margin-bottom:10px;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select{
+    width:100%;
+    padding:15px;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:10px;
+    background:#2b2b2b;
+    color:white;
+    font-size:16px;
+    outline:none;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus,
+.checkout-form select:focus{
+    border-color:#D4AF37;
+}
+
+.checkout-form textarea{
+    resize:vertical;
+}
+
+.checkout-form button{
+    margin-top:10px;
+    padding:16px;
+    border:none;
+    border-radius:12px;
+    background:#D4AF37;
+    color:#111;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.checkout-form button:hover{
+    background:#e6bf47;
+}
+
+.checkout-summary{
+    height:fit-content;
+    background:#1d1d1d;
+    border:1px solid rgba(212,175,55,.15);
+    border-radius:18px;
+    padding:30px;
+    position:sticky;
+    top:120px;
+}
+
+.checkout-summary h2{
+    color:#D4AF37;
+    margin-bottom:25px;
+}
+
+.checkout-summary p{
+    font-size:20px;
+    margin:18px 0;
+}
+
+.checkout-summary strong{
+    color:#D4AF37;
+}
+
+@media(max-width:900px){
+
+.checkout-container{
+    grid-template-columns:1fr;
+}
+
+.checkout-summary{
+    position:static;
+}
+
+.checkout-page{
+    padding:25px;
+}
+
+}
+.payment-box{
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.card-row{
+    display:flex;
+    gap:15px;
+}
+
+.card-row input{
+    flex:1;
+}
+
+.upi-note{
+    color:#D4AF37;
+    font-size:14px;
+    margin-top:-5px;
+}

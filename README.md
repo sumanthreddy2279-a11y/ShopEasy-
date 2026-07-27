@@ -68,3 +68,61 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+S-Mart - E-Commerce Website
+
+📌 Project Overview
+S-Mart is a modern React-based e-commerce web application developed as an internship project. It provides users with an interactive online shopping experience, including product browsing, wishlist management, shopping cart, user authentication, reviews, and order management.
+
+✨ Features
+• User Registration & Login
+• Product Search
+• Category Filtering
+• Price Sorting
+• Product Details
+• Shopping Cart
+• Wishlist
+• Checkout
+• Order History
+• Product Reviews
+• Responsive Design
+• Local Storage Persistence
+
+🛠 Technologies Used
+• React.js
+• React Router DOM
+• JavaScript (ES6)
+• HTML5
+• CSS3
+• Fake Store API
+• Local Storage
+
+📂 Project Structure
+
+src/
+ ├── components/
+ ├── contexts/
+ ├── hooks/
+ ├── pages/
+ ├── routes/
+ ├── services/
+ ├── styles/
+
+🚀 Installation
+
+git clone <repository-url>
+
+cd s-mart
+
+npm install
+
+npm start
+
+The application runs at:
+http://localhost:3000
+
+📖 API Used
+https://fakestoreapi.com
+
+👨‍💻 Developed By
+Satvik G

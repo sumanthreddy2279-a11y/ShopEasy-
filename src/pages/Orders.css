@@ -1,0 +1,129 @@
+.orders-page{
+    min-height:100vh;
+    background:#111;
+    padding:50px 0;
+}
+
+.orders-container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.orders-header{
+    text-align:center;
+    margin-bottom:40px;
+    color:white;
+}
+
+.orders-header h1{
+    color:#D4AF37;
+    font-size:40px;
+}
+
+.back-btn{
+    float:left;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#D4AF37;
+    color:#111;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.order-card{
+    display:flex;
+    gap:30px;
+    background:#222;
+    border:1px solid #D4AF37;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.order-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    background:white;
+    border-radius:10px;
+}
+
+.order-details{
+    flex:1;
+    color:white;
+}
+
+.order-details h2{
+    margin-bottom:15px;
+}
+
+.price{
+    color:#D4AF37;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.delivered{
+    color:limegreen;
+    margin-left:8px;
+    font-weight:bold;
+}
+
+.order-details button{
+    margin-top:15px;
+    background:#D4AF37;
+    color:#111;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.empty-orders{
+    text-align:center;
+    color:white;
+    padding:80px;
+}
+
+.empty-orders button{
+    margin-top:20px;
+    padding:15px 30px;
+    border:none;
+    border-radius:8px;
+    background:#D4AF37;
+    color:#111;
+    cursor:pointer;
+    font-weight:bold;
+}
+.payment-status,
+.delivery-date {
+  color: #d4af37;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.delivered {
+  color: #4CAF50;
+  font-weight: bold;
+}
+.order-info {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 10px 30px;
+  margin: 20px 0;
+}
+
+.order-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .order-info {
+    grid-template-columns: 1fr;
+  }
+}

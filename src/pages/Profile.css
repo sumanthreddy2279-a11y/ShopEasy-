@@ -1,0 +1,163 @@
+.profile-page{
+    min-height:100vh;
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px 20px;
+}
+
+.profile-card{
+    width:900px;
+    background:#222;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 20px 50px rgba(0,0,0,.5);
+    border:1px solid #D4AF37;
+}
+
+.profile-header{
+    background:#D4AF37;
+    color:#111;
+    padding:40px;
+    text-align:center;
+    position:relative;
+}
+
+.back-btn{
+    position:absolute;
+    left:30px;
+    top:30px;
+    padding:10px 18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    background:#111;
+    color:#D4AF37;
+}
+
+.back-btn:hover{
+    background:#333;
+}
+
+.profile-avatar{
+    font-size:90px;
+    color:white;
+    background:#D4AF37;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+
+.profile-header h1{
+    margin-top:10px;
+    font-size:32px;
+}
+
+.profile-header h2{
+    margin-top:15px;
+}
+
+.profile-header p{
+    margin-top:5px;
+    font-size:18px;
+}
+
+.profile-details{
+    padding:40px;
+}
+
+.detail-row{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #444;
+    padding:18px 0;
+}
+
+.detail-row span{
+    color:#bbb;
+    font-size:20px;
+}
+
+.detail-row strong{
+    color:white;
+    font-size:20px;
+}
+
+.active{
+    color:limegreen;
+}
+
+.profile-stats{
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px 40px 40px;
+}
+
+.stat-card{
+    width:180px;
+    padding:30px;
+    text-align:center;
+    background:#2b2b2b;
+    border-radius:15px;
+    border:1px solid #D4AF37;
+}
+
+.stat-card h2{
+    color:#D4AF37;
+    font-size:40px;
+}
+
+.stat-card p{
+    color:white;
+    margin-top:10px;
+}
+
+.profile-buttons{
+    display:flex;
+    gap:20px;
+    padding:0 40px 40px;
+}
+
+.edit-btn,
+.logout-btn{
+    flex:1;
+    padding:18px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.edit-btn{
+    background:#D4AF37;
+    color:#111;
+}
+
+.logout-btn{
+    background:#dc3545;
+    color:white;
+}
+
+.edit-btn:hover{
+    background:#f1c84b;
+}
+
+.logout-btn:hover{
+    background:#b71c1c;
+}
+.detail-row input {
+  width: 260px;
+  padding: 8px 12px;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+.detail-row input:focus {
+  border-color: #f4c542;
+}

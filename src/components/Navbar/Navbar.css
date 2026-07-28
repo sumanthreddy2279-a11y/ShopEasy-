@@ -20,7 +20,7 @@
 
     padding:18px 7%;
 
-    background: rgba(18,18,18,.96);
+    background: rgba(15,23,42,.96);
 
     backdrop-filter:blur(18px);
 
@@ -42,7 +42,7 @@
 
 .logo h1{
 
-    color:#D4AF37;
+    color:#38BDF8;
 
     font-size:36px;
 
@@ -54,7 +54,7 @@
 
 .logo span{
 
-    color:#d6d6d6;
+    color:#e0f2fe;
 
     font-size:13px;
 
@@ -104,7 +104,7 @@
 
 .nav-links a:hover{
 
-   color:#D4AF37;
+   color:#38BDF8;
 
 }
 
@@ -124,7 +124,7 @@
 
     border-radius:10px;
 
-   background:#D4AF37;
+   background:#38BDF8;
 
     transition:.35s;
 
@@ -164,7 +164,7 @@
 
     border-radius:12px;
 
-    background:linear-gradient(135deg,#B8860B,#D4AF37);
+    background:linear-gradient(135deg,#2563EB,#38BDF8);
 
     color:white;
 
@@ -185,40 +185,32 @@
 }
 
 .cart-btn{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 
-    position:relative;
+    background: linear-gradient(135deg, #2563EB, #38BDF8) !important;
 
-    width:48px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .35s;
 
-    height:48px;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.08);
-
-    color:white;
-
-    text-decoration:none;
-
-    font-size:20px;
-
-    transition:.35s;
-
+    box-shadow: 0 10px 25px rgba(37,99,235,.35);
 }
 
 .cart-btn:hover{
 
-    background:#D4AF37;
-color:#121212;
+    background:#38BDF8;
+ color:white;
 
     transform:translateY(-3px);
 
+    box-shadow:0 12px 30px rgba(37,99,235,.45);
 }
 
 .cart-count{
@@ -235,7 +227,7 @@ color:#121212;
 
     border-radius:50%;
 
-    background:#ef4444;
+      background:#06B6D4;
 
     display:flex;
 
@@ -301,7 +293,7 @@ color:#121212;
     height: 58px;
     padding: 0 22px;
 
-    background: #d4af37;
+    background: #38BDF8;
     color: #fff;
     border-radius: 12px;
     font-weight: 600;
@@ -326,8 +318,8 @@ color:#121212;
     right: 0;
     width: 260px;
 
-    background: #1f1f1f;
-    border: 1px solid #D4AF37;
+    background: #1E3A8A;
+    border: 1px solid #38BDF8;
     border-radius: 14px;
 
     padding: 18px;
@@ -344,7 +336,7 @@ color:#121212;
 }
 
 .profile-info h4{
-    color:#D4AF37;
+    color:#38BDF8;
     font-size:20px;
     margin-bottom:4px;
 }
@@ -367,7 +359,7 @@ color:#121212;
 }
 
 .dropdown-item:hover{
-    color:#D4AF37;
+    color:#38BDF8;
 }
 
 .logout-btn{

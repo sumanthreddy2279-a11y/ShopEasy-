@@ -32,7 +32,7 @@ const handleLogout = () => {
 
       {/* Logo */}
       <Link to="/" className="logo">
-        <h1>S-Mart</h1>
+        <h1>Shopeasi</h1>
         <span>Smart Shopping Starts Here</span>
       </Link>
 

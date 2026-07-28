@@ -21,12 +21,11 @@ function Hero() {
         </span>
 
         <h1>
-          Shop Smarter with <span>S-Mart</span>
+          Shop Smarter with <span>shopeasi</span>
         </h1>
 
         <p>
           Discover premium electronics, fashion, jewellery and lifestyle
-          products at unbeatable prices with secure payments and fast delivery.
         </p>
 
         <div className="hero-buttons">

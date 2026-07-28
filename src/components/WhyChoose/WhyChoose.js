@@ -35,7 +35,7 @@ const WhyChoose = () => {
     <section className="why-section">
 
       <div className="why-header">
-        <h2>Why Choose S-Mart?</h2>
+        <h2>Why Choose shopeasi?</h2>
         <p>
           We provide a premium shopping experience with quality products,
           secure payments, and reliable delivery.

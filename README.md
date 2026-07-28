@@ -1,28 +1,27 @@
-# 🛒 S-Mart – React E-Commerce Website
+# 🛒 ShopEasy – React E-Commerce Website
 
 ## 📌 Project Overview
 
-S-Mart is a modern React-based e-commerce web application developed as an internship project. It provides users with an interactive online shopping experience, including product browsing, wishlist management, shopping cart, checkout, reviews, and order history.
+ShopEasy is a modern React-based E-Commerce web application designed to provide a seamless online shopping experience. Users can browse products, search items, manage a shopping cart, maintain a wishlist, place orders, and review purchased products. The application uses the Fake Store API for product data and React Context API for state management.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- User Registration & Login
+- User Login & Registration
 - Product Listing
 - Product Details
 - Search Products
-- Category Filter
-- Price Sorting
-- Wishlist
+- Filter Products
+- Sort Products
 - Shopping Cart
-- Checkout & Payment Confirmation
+- Wishlist
+- Checkout
 - Order History
-- Buy Again
+- Buy Again Feature
 - Product Reviews
-- User Profile Dashboard
+- User Profile
 - Responsive Design
-- Local Storage Support
 
 ---
 
@@ -30,12 +29,12 @@ S-Mart is a modern React-based e-commerce web application developed as an intern
 
 - React.js
 - React Router DOM
-- Context API
 - JavaScript (ES6)
 - HTML5
 - CSS3
-- Fake Store API
+- Context API
 - Local Storage
+- Fake Store API
 
 ---
 
@@ -43,6 +42,7 @@ S-Mart is a modern React-based e-commerce web application developed as an intern
 
 ```
 src/
+│
 ├── components/
 ├── contexts/
 ├── hooks/
@@ -50,42 +50,106 @@ src/
 ├── routes/
 ├── services/
 ├── styles/
+├── App.js
+└── index.js
 ```
 
 ---
 
-## 🚀 Installation
+## ⚙️ Installation
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/satvik976-sys/satvik-mart.git
+git clone https://github.com/sumanthreddy2279-a11y/ShopEasy-.git
+```
 
-cd satvik-mart
+### Navigate to the Project
 
+```bash
+cd ShopEasy-
+```
+
+### Install Dependencies
+
+```bash
 npm install
+```
 
+### Run the Project
+
+```bash
 npm start
 ```
 
----
+The application will run at:
 
-## 📦 Production Build
-
-```bash
-npm run build
+```
+http://localhost:3000
 ```
 
 ---
 
-## 🌐 API Used
+## 📖 Usage
 
-https://fakestoreapi.com
+1. Register or Login.
+2. Browse products.
+3. Search and filter products.
+4. Add products to Cart or Wishlist.
+5. Proceed to Checkout.
+6. Place Orders.
+7. View Order History.
+8. Buy Again.
+9. Submit Product Reviews.
 
 ---
 
-## 👨‍💻 Developer
+## 🔗 API Used
 
-**Satvik Gundrathi**
+Fake Store API
 
-B.Tech – Computer Science (Blockchain Technology)
+https://fakestoreapi.com/
 
-JAIN (Deemed-to-be University)
+---
+
+## 🧪 Testing
+
+The application has been tested for:
+
+- Authentication
+- Product Browsing
+- Search & Filtering
+- Cart Management
+- Wishlist
+- Checkout
+- Order History
+- Reviews
+- Responsive Design
+
+All major functionalities have been verified successfully.
+
+---
+
+## 🚀 Future Enhancements
+
+- Payment Gateway Integration
+- Admin Dashboard
+- Product Management
+- Order Tracking
+- Email Notifications
+- Backend Database
+- JWT Authentication
+
+---
+
+## 👨‍💻 Maintained By
+
+**Sumanth Reddy**
+
+GitHub: https://github.com/sumanthreddy2279-a11y
+
+---
+
+## 📄 License
+
+This project is intended for educational and learning purposes.

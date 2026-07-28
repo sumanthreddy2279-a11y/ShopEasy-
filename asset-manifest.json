@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/satvik-mart/static/css/main.2fa16464.css",
+    "main.js": "/satvik-mart/static/js/main.3c474330.js",
+    "index.html": "/satvik-mart/index.html",
+    "main.2fa16464.css.map": "/satvik-mart/static/css/main.2fa16464.css.map",
+    "main.3c474330.js.map": "/satvik-mart/static/js/main.3c474330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa16464.css",
+    "static/js/main.3c474330.js"
+  ]
+}
